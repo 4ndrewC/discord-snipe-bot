@@ -40,11 +40,11 @@ async def thebeast(interaction: Interaction):
 
 @bot.slash_command(guild_ids=[NNID])
 async def rape(ctx):
-    await ctx.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\scp\rape eren.png"))
+    await ctx.send(file=discord.File(r"images\rape eren.png"))
 
 @bot.slash_command(guild_ids=[NNID])
 async def hashira(ctx):
-    await ctx.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\misc\tryout.jpg"))
+    await ctx.send(file=discord.File(r"images\tryout.jpg"))
 
 #Refugee camp commands
 @bot.slash_command(guild_ids=[RefugeeCampID])
@@ -53,19 +53,19 @@ async def jamesfuck(interaction: Interaction):
 
 @bot.slash_command(guild_ids=[RefugeeCampID])
 async def jamesbeta(ctx):
-    await ctx.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\james\rape me.png"))
+    await ctx.send(file=discord.File(r"images\rape me.png"))
 
 @bot.slash_command(guild_ids=[RefugeeCampID])
 async def emlook(ctx):
-    await ctx.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\emy\emlookistillloveyou.png"))
+    await ctx.send(file=discord.File(r"images\emlookistillloveyou.png"))
 
 @bot.slash_command(guild_ids=[RefugeeCampID])
 async def impregnate(ctx):
-    await ctx.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\misc\iwillimpregnateyou.jpg"))
+    await ctx.send(file=discord.File(r"images\iwillimpregnateyou.jpg"))
 
 @bot.slash_command(guild_ids=[RefugeeCampID])
 async def waifu(ctx):
-    await ctx.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\waifu\waifuracist.png"))
+    await ctx.send(file=discord.File(r"images\waifuracist.png"))
 
 #vc
 
@@ -121,16 +121,16 @@ async def on_message(message):
         await message.channel.send(f"{caca.mention}")
 
     elif message.channel.id == 960348217713774615 and user_message.lower() == '!rape':
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\james\rape me.png"))
+        await message.channel.send(file=discord.File(r"images\rape me.png"))
     
     elif message.channel.id == 885473624927109172 and 'scp' in user_message.lower():
         await message.channel.send('is gay')
     
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!xunn':
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\xunn\mommy.png"))
+        await message.channel.send(file=discord.File(r"images\mommy.png"))
 
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!beta':
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\xunn\knees.png"))
+        await message.channel.send(file=discord.File(r"images\knees.png"))
 
     elif '@everyone' in user_message.lower() and 'vc' in user_message.lower():
         await message.channel.send('average vc ping')
@@ -143,17 +143,17 @@ async def on_message(message):
     
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!unleash':
         for i in range(10):
-            await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\shu\squirt.png"))
+            await message.channel.send(file=discord.File(r"images\squirt.png"))
     
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!thankslukie':
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\shu\thankslukie.png"))
+        await message.channel.send(file=discord.File(r"images\thankslukie.png"))
 
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!cf':
         c = random.random()
         if c>0.5: 
-            await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\shu\squirt.png"))
+            await message.channel.send(file=discord.File(r"images\squirt.png"))
         else:
-            await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\xunn\knees.png"))
+            await message.channel.send(file=discord.File(r"images\knees.png"))
 #logging
 # @bot.event
 # async def on_message(message):

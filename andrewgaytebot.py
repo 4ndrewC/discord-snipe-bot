@@ -122,25 +122,25 @@ async def on_message(message):
         await message.channel.send(f"{caca.mention}")
 
     elif message.channel.id == 960348217713774615 and user_message.lower() == '!rape':
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\james\rape me.png"))
+        await message.channel.send(file=discord.File(r"/andrewgaytepics/rape me.png"))
     
     elif message.channel.id == 885473624927109172 and 'scp' in stripped:
         await message.channel.send('is gay')
     
     elif message.channel.id == 885473624927109172 and 'bigbruh' in stripped:
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\andrewgaytepics\bigbruh.png"))
+        await message.channel.send(file=discord.File(r"/andrewgaytepics/bigbruh.png"))
 
     elif message.channel.id == 885473624927109172 and 'biggerbruh' in stripped:
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\andrewgaytepics\biggerbruh.png"))
+        await message.channel.send(file=discord.File(r"/andrewgaytepics/biggerbruh.png"))
 
     elif message.channel.id == 885473624927109172 and 'biggiebruh' in stripped:
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\andrewgaytepics\biggiebruh.png"))
+        await message.channel.send(file=discord.File(r"/andrewgaytepics/biggiebruh.png"))
 
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!xunn':
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\xunn\mommy.png"))
+        await message.channel.send(file=discord.File(r"/andrewgaytepics/mommy.png"))
 
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!beta':
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\xunn\knees.png"))
+        await message.channel.send(file=discord.File(r"/andrewgaytepics/knees.png"))
 
     elif '@everyone' in user_message.lower() and 'vc' in user_message.lower():
         await message.channel.send('average vc ping')
@@ -153,24 +153,24 @@ async def on_message(message):
     
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!unleash':
         for i in range(10):
-            await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\shu\squirt.png"))
+            await message.channel.send(file=discord.File(r"/andrewgaytepics/squirt.png"))
     
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!thankslukie':
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\shu\thankslukie.png"))
+        await message.channel.send(file=discord.File(r"/andrewgaytepics/thankslukie.png"))
 
     elif message.channel.id == 995931017389027341 and user_message.lower() == '!cf':
         c = random.random()
         if c>0.5: 
-            await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\shu\squirt.png"))
+            await message.channel.send(file=discord.File(r"/andrewgaytepics/squirt.png"))
         else:
-            await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\raot\sus\xunn\knees.png"))
+            await message.channel.send(file=discord.File(r"/andrewgaytepics/knees.png"))
 
     elif message.channel.id == 1036914188213288994 and '!zero' in stripped:
-        await message.channel.send(file=discord.File(r"C:\Users\andre\randomstuff\andrewgaytepics\zero.png"))
+        await message.channel.send(file=discord.File(r"/andrewgaytepics/zero.png"))
     
     elif message.channel.id == 1036914188213288994 and '!lmao' in stripped:
         lmao = get(message.channel.members, id=757893118510104596)
-        await message.channel.send(f"{lmao.mention}", file=discord.File(r"C:\Users\andre\randomstuff\andrewgaytepics\Lmaonobitches.png"))
+        await message.channel.send(f"{lmao.mention}", file=discord.File(r"/andrewgaytepics/Lmaonobitches.png"))
 #logging
 # @bot.event
 # async def on_message(message):
